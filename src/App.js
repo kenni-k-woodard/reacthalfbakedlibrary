@@ -8,6 +8,7 @@ function App() {
   // TODO: Add routes to books & views
   return (
     <div className="App">
+      <h1>Library Catalog</h1>
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/books" component={BookList} />
